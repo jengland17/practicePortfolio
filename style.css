@@ -1,0 +1,136 @@
+
+body {
+    margin-left: 300px;
+}
+
+#wrapper {
+    background-image: linear-gradient(#0f2027, #203a43,#2c5364);
+    width: 1312px;
+}
+
+#top {
+    background-color: rgb(105, 104, 104);
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    padding: 5px;
+}
+
+#mid {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#me {
+    padding-left: 20px;
+}
+
+.me {
+    width: 500px;
+    height: 300px;
+    border: 4px solid rgb(105, 104, 104);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(105, 104, 104);
+    margin-right: 20px; 
+    margin-left: 20px;
+}
+
+h2 {
+    background-color: #446394;
+    margin: 0px;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.box {
+    height: 590px;
+    width: 400px;
+    background-color: rgb(105, 104, 104); 
+    text-align: center;
+}
+
+.trio {
+    background-color: #446394;
+    margin: 0px;
+    text-align: left;
+}
+
+h3 {
+    background-color: #446394;
+    text-align: left;
+}
+
+.lamode {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.family {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.five {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.tech {
+    height: 60px;
+    width: 60px;
+}
+
+.btn {
+    background-color: #446394;
+    border-radius: 25px;
+    text-align: center; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(105, 104, 104);
+    padding-top: 5px;
+    margin-top: 25px;
+}
+
+.social {
+    height: 15px;
+    width: 15px;
+}
+
+ul {
+    display: flex;
+    align-self: center;
+}
+
+li {
+    list-style-type: none;
+    align-self: center;
+}
+
+.contact {
+    align-self: center; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
